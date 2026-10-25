@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -55,4 +55,54 @@ body {
 
 .right {
     width: 65%;
+    display: flex;
+    flex-direction: column;
 }
+
+.top {
+    height: 25vh;
+    background-color: rgba(202, 202, 202, 0.151);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 120px 30px 40px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.top p:last-child {
+    padding-top: 20px;
+}
+
+.mid {
+    height: 50vh;
+    box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.397);
+    z-index: 1;
+}
+
+.btm {
+    height: 25vh;
+    background-color: rgba(202, 202, 202, 0.151);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+.btm button {
+    width: 200px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(12, 75, 12, 0.637);
+    color: white;
+    font-size: 1rem;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.301);
+    cursor: pointer;
+}
+
+.btm p a {
+    text-decoration: none;
+    color: rgba(12, 75, 12, 0.637)
+}
+
